@@ -4,7 +4,7 @@ const BigNumber = require("bignumber.js");
 const sprintf = require("sprintf-js");
 const wallet_conf = require("../../configs/wallet_config.json");
 const { EOSTXSign } = require("../dllimport/EOSTXSign");
-
+const { EOSTXSign } = require("../dllimport/EOSGetAddress");
 const {
     DLLRET,
     DLLPSTEP,
@@ -358,3 +358,4 @@ const signTx = async actions => {
 };
 
 module.exports = { signTx };
+

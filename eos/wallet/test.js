@@ -1,4 +1,6 @@
 const eos = require("./eos");
+const { GetAddress } = require("../dllimport/EOSGetAddress");
+const wallet_conf = require("../../configs/wallet_config.json");
 
 const sign_test = () => {
     let action_transfer = {
@@ -58,3 +60,9 @@ const sign_test = () => {
 };
 
 sign_test();
+
+get_address=async () => {
+  const res = await GetAddress(...wallet_conf.eos.testnet.derivePathPrefix);
+  //res.payload
+  //res.result
+}
