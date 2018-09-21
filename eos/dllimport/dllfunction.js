@@ -45,7 +45,7 @@ if (process.env.LIBDIR == undefined || process.env.LIBDIR == "") {
     process.env.LIBDIR = __dirname;
 }
 
-const DLLAPI = ffi.Library(path.resolve(process.env.LIBDIR, "EWallet.dll"), {
+const DLLAPI = ffi.Library(path.resolve(process.env.LIBDIR, "EWallet"), {
     PAEW_InitContextWithDevName: [
         "int",
         [voidPP, "string", "uchar", "pointer", "pointer"]
