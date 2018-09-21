@@ -1,0 +1,66 @@
+{
+    "eos": {
+        "testnet": {
+            "server": "http://api.helloeos.com.cn",
+            "derivePath": [0, 2147483692, 2147483842, 2147483648, 0, 0]
+        },
+        "formalnet": {
+            "server": "http://api.helloeos.com.cn",
+            "derivePath": [0, 2147483692, 2147483842, 2147483648, 0, 0]
+        }
+    },
+    "btc": {
+        "testnet": {
+            "server": "http://101.132.41.225:3001/insight-api",
+            "derivePath": [0, 2147483692, 2147483649, 2147483648, 0, 0],
+            "rate": 1e8,
+            "MinimalConfirmation": 1
+        },
+        "formalnet": {
+            "server": "http://101.132.41.225:3002/insight-api",
+            "derivePath": [0, 2147483692, 2147483648, 2147483648, 0, 0],
+            "rate": 1e8,
+            "MinimalConfirmation": 1
+        }
+    },
+    "eth": {
+        "testnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147483708, 2147483648, 0, 0]
+        },
+        "formalnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147483708, 2147483648, 0, 0]
+        }
+    },
+    "etc": {
+        "testnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147483709, 2147483648, 0, 0]
+        },
+        "formalnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147483709, 2147483648, 0, 0]
+        }
+    },
+    "ltc": {
+        "testnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147483650, 2147483648, 0, 0]
+        },
+        "formalnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147483650, 2147483648, 0, 0]
+        }
+    },
+    "neo": {
+        "testnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147484536, 2147483648, 0, 0]
+        },
+        "formalnet":{
+            "server":"",
+            "derivePath": [0, 2147483692, 2147484536, 2147483648, 0, 0]
+        }
+    }
+}
